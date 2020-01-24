@@ -24,7 +24,7 @@ Example usage:
 ```
 modeStateMachine = StateMachine(modeStateMachineDef);
 modeStateMachine.transition(initMode);
-modeStateMachine.is() //returns current state
+modeStateMachine.is(<value>) //compares <value> to the stored value
 
 var modeStateMachineDef = {
   initValue: "init",
